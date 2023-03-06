@@ -16,7 +16,7 @@ h1{
     margin-left: 30%;
     margin-right: 30%;
     background-color: orange;
-    height: 1000px;
+    height: 1300px;
     border: solid 3px black;
 }
 .logo {
@@ -32,4 +32,32 @@ h1{
     text-align:justify;
     margin-left: 10%;
     margin-right: 10%;
+}
+.ribbon{
+    display: flex;
+    margin-top: 50px;
+    margin: 30px;
+    max-width: 600px;
+    height: 300px;
+    overflow-x: scroll;
+    scrollbar-width: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.item{
+    margin: 20px;
+    background-color: aqua;
+    border: solid 3px black;
+    border-radius: 10%;
+    width: 200px;
+}
+.item_text{
+    box-sizing: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    width: 80px;
 }
